@@ -1,4 +1,6 @@
 # Senior HTML/CSS developer Assessment for Omnigon
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/rogatnev-nikita/omnigon-test.svg)](https://greenkeeper.io/)
 [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url] [![devDependency status][dev-dependency-image]][dev-dependency-url]
 
 [travis-image]: https://travis-ci.org/rogatnev-nikita/omnigon-test.svg?branch=master
