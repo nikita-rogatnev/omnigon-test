@@ -13,110 +13,323 @@
 
     <title>Senior HTML/CSS developer Assessment for Omnigon</title>
 
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <!-- FONTS END -->
+
     <!-- STYLES -->
-    <link rel="stylesheet" href="./css/style.min.css">
+    <link href="./css/style.min.css" rel="stylesheet">
     <!-- STYLES END -->
 
 </head>
 
 <body>
 
-    <!-- SIDEBAR -->
-    <aside class="sidebar">
-        <div class="sidebar__container">
+    <!-- CONTAINER -->
+    <div class="container">
 
-            <!-- SIDEBAR HEADER -->
-            <header class="sidebar__header">
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+            <div class="sidebar__container">
 
-            </header>
-            <!-- SIDEBAR HEADER END -->
+                <!-- SIDEBAR HEADER -->
+                <header class="sidebar__header">
+                    <h1 class="logo"><a href="#">Omnigon</a></h1>
+                    <button type="button" class="button">New vote</button>
+                </header>
+                <!-- SIDEBAR HEADER END -->
 
-            <!-- SIDEBAR ITEM -->
-            <section class="sidebar__item">
+                <!-- SIDEBAR ITEM -->
+                <section class="vote">
+                    <h2>Draft</h2>
+                    <div class="vote__item vote__item--accent">
+                        <a href="#" class="vote__link">
+                            <div class="vote__placeholder">
+                            </div>
+                            <span class="vote__name">New vote</span>
+                        </a>
+                    </div>
+                    <div class="vote__item">
+                        <a href="#" class="vote__link">
+                            <div class="vote__placeholder">
+                                <img src="./img/vote/vote__image--2@1x.png" class="vote__image" alt="vote">
+                            </div>
+                            <span class="vote__name">Serie A Footballer of the Year</span>
+                        </a>
+                    </div>
+                </section>
+                <!-- SIDEBAR ITEM END -->
 
-            </section>
-            <!-- SIDEBAR ITEM END -->
+                <!-- SIDEBAR ITEM -->
+                <section class="vote">
+                    <h2>Active</h2>
+                    <div class="vote__item">
+                        <a href="#" class="vote__link">
+                            <div class="vote__placeholder">
+                                <img src="./img/vote/vote__image--3@1x.png" class="vote__image" alt="vote">
+                            </div>
+                            <span class="vote__name">Unleash a Jaguar</span>
+                        </a>
+                    </div>
+                    <div class="vote__item">
+                        <a href="#" class="vote__link">
+                            <div class="vote__placeholder">
+                                <img src="./img/vote/vote__image--4@1x.png" class="vote__image" alt="vote">
+                            </div>
+                            <span class="vote__name">Chose best Wimbledon player and win tickets to the finals</span>
+                        </a>
+                    </div>
+                    <div class="vote__item">
+                        <a href="#" class="vote__link">
+                            <div class="vote__placeholder">
+                                <img src="./img/vote/vote__image--5@1x.png" class="vote__image" alt="vote">
+                            </div>
+                            <span class="vote__name">2015 Music Moments</span>
+                        </a>
+                    </div>
+                </section>
+                <!-- SIDEBAR ITEM END -->
 
-            <!-- SIDEBAR ITEM -->
-            <section class="sidebar__item">
+                <!-- SIDEBAR ITEM -->
+                <section class="vote">
+                    <h2>Closed</h2>
+                    <div class="vote__item">
+                        <a href="#" class="vote__link">
+                            <div class="vote__placeholder">
+                                <img src="./img/vote/vote__image--6@1x.png" class="vote__image" alt="vote">
+                            </div>
+                            <span class="vote__name">All time greats</span>
+                        </a>
+                    </div>
+                    <div class="vote__item">
+                        <a href="#" class="vote__link">
+                            <div class="vote__placeholder">
+                                <img src="./img/vote/vote__image--7@1x.png" class="vote__image" alt="vote">
+                            </div>
+                            <span class="vote__name">Insane Dunks</span>
+                        </a>
+                    </div>
+                    <div class="vote__item">
+                        <a href="#" class="vote__link">
+                            <div class="vote__placeholder">
+                                <img src="./img/vote/vote__image--8@1x.png" class="vote__image" alt="vote">
+                            </div>
+                            <span class="vote__name">2014 Music Moments</span>
+                        </a>
+                    </div>
+                </section>
+                <!-- SIDEBAR ITEM END -->
 
-            </section>
-            <!-- SIDEBAR ITEM END -->
+            </div>
+        </aside>
+        <!-- SIDEBAR END -->
 
-            <!-- SIDEBAR ITEM -->
-            <section class="sidebar__item">
+        <!-- CONTENT -->
+        <main class="content">
+            <div class="content__container">
 
-            </section>
-            <!-- SIDEBAR ITEM END -->
+                <!-- TABS -->
+                <header class="tabs">
+                    <ul class="tabs__list">
+                        <li class="tabs__item">
+                            <a href="#" class="tabs__link">Detail</a>
+                        </li>
+                        <li class="tabs__item">
+                            <a href="#" class="tabs__link tabs__link--active">Content</a>
+                        </li>
+                        <li class="tabs__item">
+                            <a href="#" class="tabs__link">Ads</a>
+                        </li>
+                        <li class="tabs__item">
+                            <a href="#" class="tabs__link">Data capture</a>
+                        </li>
+                        <li class="tabs__item">
+                            <a href="#" class="tabs__link">Look and feel</a>
+                        </li>
+                    </ul>
+                </header>
+                <!-- TABS END -->
 
-        </div>
-    </aside>
-    <!-- SIDEBAR END -->
+                <!-- FILTERS -->
+                <form class="filters">
+                    <div class="filters__item">
 
-    <!-- CONTENT -->
-    <main class="content">
-        <div class="content__container">
+                    </div>
+                </form>
+                <!-- FILTERS END -->
 
-            <!-- TABS -->
-            <header class="tabs">
-                <ul class="tabs__list">
-                    <li class="tabs__item">
-                        <a href="#" class="tabs__link"></a>
-                    </li>
-                    <li class="tabs__item">
-                        <a href="#" class="tabs__link"></a>
-                    </li>
-                    <li class="tabs__item">
-                        <a href="#" class="tabs__link"></a>
-                    </li>
-                    <li class="tabs__item">
-                        <a href="#" class="tabs__link"></a>
-                    </li>
-                    <li class="tabs__item">
-                        <a href="#" class="tabs__link"></a>
-                    </li>
-                </ul>
-            </header>
-            <!-- TABS END -->
+                <!-- PLAYERS -->
+                <section class="players">
 
-            <!-- FILTERS -->
-            <form class="filters">
-                <div class="filters__item">
+                    <!-- NOTIFICATIONS -->
+                    <div class="notifications">
+                        <span class="notifications__item notifications__item--success">Embed at least 2 players<sup>*</sup></span>
+                    </div>
+                    <!-- NOTIFICATIONS END -->
 
-                </div>
-            </form>
-            <!-- FILTERS END -->
+                    <!-- PLAYERS ITEMS -->
+                    <div class="players__items">
 
-            <!-- PLAYERS -->
-            <section class="players">
+                        <div class="players__item">
+                            <a href="#" class="players__link">
+                                <img src="./img/players/players__image--1@1x.png" class="players__image" alt="player">
+                                <h2 class="players__name">Player</h2>
+                            </a>
+                        </div>
 
-                <div class="players__item">
-                    <a href="#" class="players__link">
-                        <img src="#" class="players__image" alt="player">
-                        <h2>Player</h2>
-                    </a>
-                </div>
+                        <div class="players__item">
+                            <a href="#" class="players__link">
+                                <img src="./img/players/players__image--1@1x.png" class="players__image" alt="player">
+                                <h2 class="players__name">Player</h2>
+                            </a>
+                        </div>
 
-                <div class="players__item">
-                    <a href="#" class="players__link">
-                        <img src="#" class="players__image" alt="player">
-                        <h2>Player</h2>
-                    </a>
-                </div>
+                        <div class="players__item">
+                            <a href="#" class="players__link">
+                                <img src="./img/players/players__image--1@1x.png" class="players__image" alt="player">
+                                <h2 class="players__name">Player</h2>
+                            </a>
+                        </div>
 
-                <div class="players__item">
-                    <a href="#" class="players__link">
-                        <img src="#" class="players__image" alt="player">
-                        <h2>Player</h2>
-                    </a>
-                </div>
+                        <div class="players__item">
+                            <a href="#" class="players__link">
+                                <img src="./img/players/players__image--1@1x.png" class="players__image" alt="player">
+                                <h2 class="players__name">Player</h2>
+                            </a>
+                        </div>
 
-            </section>
-            <!-- PLAYERS END -->
+                        <div class="players__item">
+                            <a href="#" class="players__link">
+                                <img src="./img/players/players__image--1@1x.png" class="players__image" alt="player">
+                                <h2 class="players__name">Player</h2>
+                            </a>
+                        </div>
 
-        </div>
-    </main>
-    <!-- CONTENT END -->
+                        <div class="players__item">
+                            <a href="#" class="players__link">
+                                <img src="./img/players/players__image--1@1x.png" class="players__image" alt="player">
+                                <h2 class="players__name">Player</h2>
+                            </a>
+                        </div>
+
+                        <div class="players__item">
+                            <a href="#" class="players__link">
+                                <img src="./img/players/players__image--1@1x.png" class="players__image" alt="player">
+                                <h2 class="players__name">Player</h2>
+                            </a>
+                        </div>
+
+                        <div class="players__item">
+                            <a href="#" class="players__link">
+                                <img src="./img/players/players__image--1@1x.png" class="players__image" alt="player">
+                                <h2 class="players__name">Player</h2>
+                            </a>
+                        </div>
+
+                        <div class="players__item">
+                            <a href="#" class="players__link">
+                                <img src="./img/players/players__image--1@1x.png" class="players__image" alt="player">
+                                <h2 class="players__name">Player</h2>
+                            </a>
+                        </div>
+
+                        <div class="players__item">
+                            <a href="#" class="players__link">
+                                <img src="./img/players/players__image--1@1x.png" class="players__image" alt="player">
+                                <h2 class="players__name">Player</h2>
+                            </a>
+                        </div>
+
+                        <div class="players__item">
+                            <a href="#" class="players__link">
+                                <img src="./img/players/players__image--1@1x.png" class="players__image" alt="player">
+                                <h2 class="players__name">Player</h2>
+                            </a>
+                        </div>
+
+                        <div class="players__item">
+                            <a href="#" class="players__link">
+                                <img src="./img/players/players__image--1@1x.png" class="players__image" alt="player">
+                                <h2 class="players__name">Player</h2>
+                            </a>
+                        </div>
+
+                        <div class="players__item">
+                            <a href="#" class="players__link">
+                                <img src="./img/players/players__image--1@1x.png" class="players__image" alt="player">
+                                <h2 class="players__name">Player</h2>
+                            </a>
+                        </div>
+
+                        <div class="players__item">
+                            <a href="#" class="players__link">
+                                <img src="./img/players/players__image--1@1x.png" class="players__image" alt="player">
+                                <h2 class="players__name">Player</h2>
+                            </a>
+                        </div>
+
+                        <div class="players__item">
+                            <a href="#" class="players__link">
+                                <img src="./img/players/players__image--1@1x.png" class="players__image" alt="player">
+                                <h2 class="players__name">Player</h2>
+                            </a>
+                        </div>
+
+                        <div class="players__item">
+                            <a href="#" class="players__link">
+                                <img src="./img/players/players__image--1@1x.png" class="players__image" alt="player">
+                                <h2 class="players__name">Player</h2>
+                            </a>
+                        </div>
+
+                        <div class="players__item">
+                            <a href="#" class="players__link">
+                                <img src="./img/players/players__image--1@1x.png" class="players__image" alt="player">
+                                <h2 class="players__name">Player</h2>
+                            </a>
+                        </div>
+
+                        <div class="players__item">
+                            <a href="#" class="players__link">
+                                <img src="./img/players/players__image--1@1x.png" class="players__image" alt="player">
+                                <h2 class="players__name">Player</h2>
+                            </a>
+                        </div>
+
+                        <div class="players__item">
+                            <a href="#" class="players__link">
+                                <img src="./img/players/players__image--1@1x.png" class="players__image" alt="player">
+                                <h2 class="players__name">Player</h2>
+                            </a>
+                        </div>
+
+                        <div class="players__item">
+                            <a href="#" class="players__link">
+                                <img src="./img/players/players__image--1@1x.png" class="players__image" alt="player">
+                                <h2 class="players__name">Player</h2>
+                            </a>
+                        </div>
+
+                        <div class="players__item">
+                            <a href="#" class="players__link">
+                                <img src="./img/players/players__image--1@1x.png" class="players__image" alt="player">
+                                <h2 class="players__name">Player</h2>
+                            </a>
+                        </div>
+
+                    </div>
+                    <!-- PLAYERS ITEMS END -->
+
+                </section>
+                <!-- PLAYERS END -->
+
+            </div>
+        </main>
+        <!-- CONTENT END -->
+
+    </div>
+    <!-- CONTAINER END -->
+
 
     <!-- SCRIPTS -->
     <script src="./js/script.js"></script>

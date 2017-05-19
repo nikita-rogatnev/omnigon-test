@@ -2,5 +2,45 @@
 /* TABS BLOCK
 /* ------------------------------------------ */
 .tabs {
-	background: blue;
+	display: block;
+}
+
+.tabs__list {
+	display: flex;
+
+	margin: 0;
+	padding: 0;
+
+	list-style-type: none;
+
+	text-align: center;
+
+	font-size: 14px;
+}
+
+.tabs__item {
+	width: 25%;
+	height: 48px;
+
+	text-align: center;
+}
+
+.tabs__link {
+	display: block;
+
+	text-decoration: none;
+
+	color: #303030;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+	font-size: 14px;
+	line-height: 3.43;
+
+	&--active {
+		height: 49px;
+
+		border-bottom: 2px solid #303030;
+
+		font-weight: bold;
+	}
 }

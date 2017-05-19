@@ -11,3 +11,20 @@
 
 [dev-dependency-image]: https://david-dm.org/rogatnev-nikita/omnigon-test/dev-status.svg?style=flat-square
 [dev-dependency-url]: https://david-dm.org/rogatnev-nikita/omnigon-test#info=devDependencies
+
+## Summary
+* High Resolution: Yes
+* Compatible Browsers: IE11+, Edge, Firefox, Safari, Opera, Chrome
+* Technologies: BEM, LESS, Grunt, HTML5
+* Files Included: HTML Files, LESS Files, CSS Files, JS Files, Images
+* Layout: Responsive
+
+## Install & Run
+```bash
+git clone https://github.com/rogatnev-nikita/omnigon-test.git
+cd omnigon-test
+npm i
+
+# Run the app
+npm start
+```
