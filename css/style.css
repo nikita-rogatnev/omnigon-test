@@ -711,9 +711,6 @@ body {
     max-height: 164px;
   }
 }
-.players__placeholder:hover {
-  background-color: rgba(0, 0, 0, 0.25);
-}
 .players__image {
   display: block;
   width: 100%;
