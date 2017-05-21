@@ -8,6 +8,9 @@
 
 	width: 40px;
 	height: 20px;
+	margin: 0 16px;
+
+	vertical-align: middle;
 }
 
 .switch input {
@@ -21,6 +24,8 @@
 		bottom: -6px;
 		left: -6px;
 
+		cursor: pointer;
+
 		border: solid 4px rgba(255, 216, 64, 0.6);
 		box-shadow: none;
 	}
@@ -30,6 +35,8 @@
 	}
 
 	&:active + .switch__helper {
+		cursor: pointer;
+
 		background-color: rgba(0, 0, 0, 0.1);
 
 		&:before {
@@ -40,6 +47,8 @@
 	}
 
 	&:active:checked + .switch__helper {
+		cursor: pointer;
+
 		background-color: #ffc620;
 
 		&:before {
@@ -57,7 +66,7 @@
 	bottom: 0;
 	left: 0;
 
-	width: 40px;
+	width: 38px;
 	height: 20px;
 
 	cursor: pointer;

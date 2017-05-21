@@ -23,6 +23,10 @@
 	height: 48px;
 
 	text-align: center;
+
+	@media (min-width: @medium-widths) {
+		height: 45px;
+	}
 }
 
 .tabs__link {
@@ -36,11 +40,27 @@
 	font-size: 14px;
 	line-height: 3.43;
 
+	@media (min-width: @medium-widths) {
+		line-height: 3;
+	}
+
+	@media (min-width: @maximun-widths) {
+		line-height: 3.43;
+	}
+
 	&--active {
 		height: 49px;
 
 		border-bottom: 2px solid #303030;
 
 		font-weight: bold;
+
+		@media (min-width: @medium-widths) {
+			height: 43px;
+		}
+
+		@media (min-width: @maximun-widths) {
+			height: 49px;
+		}
 	}
 }

@@ -2,16 +2,26 @@
 /* CONTENT BLOCK
 /* ------------------------------------------ */
 .content {
-	padding: 32px;
+	padding: 32px 32px 64px;
 
 	flex-grow: 1;
 }
 
 .content__container {
-	width: 100%;
-	max-width: 952px;
+	width: 772px;
+	min-width: 772px;
 
 	border-radius: 8px;
 	background-color: rgba(255, 255, 255, 0.9);
 	box-shadow: 0 32px 64px 0 rgba(0, 0, 0, 0.05);
+
+	@media (min-width: @medium-widths) {
+		width: 888px;
+		min-width: 888px;
+	}
+
+	@media (min-width: @maximun-widths) {
+		width: 952px;
+		min-width: 952px;
+	}
 }
